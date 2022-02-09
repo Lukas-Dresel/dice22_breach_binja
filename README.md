@@ -4,7 +4,7 @@ A Binary Ninja plugin for the VM challenges `Breach` and `Containment` of DiceCT
 
 # Example
 
-The main function after decompiles to something immensely readable and we can clearly see the logic of the program represented. This is accomplished by some instruction matching + meta opcode creation in the disassembly library [dice22_breach_dis](https://github.com/Lukas-Dresel/dice22_breach_dis/). With those meta opcodes binaryninja can infer methods, etc. correctly, and the control flow cleans up quite nicely.
+The main function decompiles to something quite readable and we can clearly see the logic of the program represented. This is accomplished by some instruction matching + meta opcode creation in the disassembly library [dice22_breach_dis](https://github.com/Lukas-Dresel/dice22_breach_dis/). With those meta opcodes binaryninja can infer methods, etc. correctly, and the control flow cleans up quite nicely.
 
 ![image](https://user-images.githubusercontent.com/13377119/153095141-c2d4e94c-95f6-406b-8427-b53b9989ac3a.png)
 
